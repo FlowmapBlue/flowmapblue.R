@@ -9,7 +9,7 @@ Rendering interactive flow maps to visualize numbers of movements between locati
 You can install the package from GitHub as follows:
 
     devtools::install_github("FlowmapBlue/flowmapblue.R")
-    library(flowmapblue);    
+    library(flowmapblue)
     
 
 
