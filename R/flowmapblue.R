@@ -29,7 +29,11 @@ flowmapblue <- function(
     x,
     width = NULL,
     height = NULL,
-    package = 'flowmapblue'
+    package = 'flowmapblue',
+    sizingPolicy = sizingPolicy(
+      padding = 0,
+      browser.padding = 0
+    )
   )
 }
 
