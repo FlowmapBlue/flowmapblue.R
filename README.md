@@ -1,6 +1,6 @@
 # Flowmap.blue R widget
 
-This is an R widget for [Flowmap.blue](http://flowmap.blue).
+This is a [Flowmap.blue](http://flowmap.blue) widget for R.
 The widget is made for rendering interactive flow maps showing numbers of movements between locations (origin-destination data).
 
 ![image](https://user-images.githubusercontent.com/351828/86061814-bb993800-ba67-11ea-9e76-90a75f813327.png)
