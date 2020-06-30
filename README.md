@@ -5,7 +5,10 @@ It produces an interactive flow map representing numbers of movements between lo
 
 ![image](https://user-images.githubusercontent.com/351828/86061814-bb993800-ba67-11ea-9e76-90a75f813327.png)
 
-#### Installation
+As an alternative, you may also consider using R to populate a spreadsheet for publishing a flow map on [Flowmap.blue](http://flowmap.blue)
+as described in this [excellent blog post](https://doodles.mountainmath.ca/blog/2020/01/06/flow-maps/).
+
+### Installation
 
 You can install the package from GitHub as follows:
 
@@ -14,7 +17,7 @@ You can install the package from GitHub as follows:
     
 
 
-#### Usage
+### Usage
 
     locations <- read.csv('https://gist.githubusercontent.com/ilyabo/a7b9701424257146b571149d92a14926/raw/2e9e1e9bcf64cf0090781b451037229ccb78e1b1/locations.csv')
     flows <- read.csv('https://gist.githubusercontent.com/ilyabo/a7b9701424257146b571149d92a14926/raw/2e9e1e9bcf64cf0090781b451037229ccb78e1b1/flows.csv')
