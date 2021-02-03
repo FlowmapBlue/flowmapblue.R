@@ -11,6 +11,9 @@ As an alternative, you may also consider using R to populate a spreadsheet for p
 as described in this [excellent blog post](https://doodles.mountainmath.ca/blog/2020/01/06/flow-maps/).
 
 ### Installation
+You need to install `devtools` if you don't have it yet:
+
+    install.packages("devtools")
 
 You can install the package from GitHub as follows:
 
