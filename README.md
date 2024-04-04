@@ -5,6 +5,8 @@ WORK IN PROGRESS
 This is a [Flowmap.blue](http://flowmap.blue) widget for R.
 It produces an interactive flow map representing numbers of movements between locations (origin-destination data).
 
+You might also consider using this pure R flowmapping library: https://github.com/JohMast/flowmapper
+
 ![image](https://user-images.githubusercontent.com/351828/86061814-bb993800-ba67-11ea-9e76-90a75f813327.png)
 
 As an alternative, you may also consider using R to populate a spreadsheet for publishing on [Flowmap.blue](http://flowmap.blue)
