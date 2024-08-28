@@ -36,7 +36,14 @@
 #' 
 #' flows <- read.csv(system.file("extdata/example/flows.csv", package = "flowmapblue"))
 #'
-#' flowmap <- flowmapblue(locations, flows, mapboxAccessToken = Sys.getenv('MAPBOX_API_TOKEN'), clustering = TRUE, darkMode = TRUE, animation = FALSE)
+#' flowmap <- flowmapblue(
+#'  locations,
+#'  flows,
+#'  mapboxAccessToken = Sys.getenv('MAPBOX_API_TOKEN'),
+#'  clustering = TRUE,
+#'  darkMode = TRUE,
+#'  animation = FALSE
+#' )
 #' 
 #' # view the map
 #' flowmap
@@ -56,7 +63,14 @@
 #' flows$time <- seq(from =as.POSIXct("2020-01-01"),
 #'   to = as.POSIXct("2020-01-05"), length.out = nrow(flows))
 #'
-#' flowmap <- flowmapblue(locations, flows, mapboxAccessToken = Sys.getenv('MAPBOX_API_TOKEN'), clustering = TRUE, darkMode = TRUE, animation = FALSE)
+#' flowmap <- flowmapblue(
+#'  locations,
+#'  flows,
+#'  mapboxAccessToken = Sys.getenv('MAPBOX_API_TOKEN'),
+#'  clustering = TRUE,
+#'  darkMode = TRUE,
+#'  animation = FALSE
+#' )
 #' 
 #' # view the map
 #' flowmap
@@ -73,7 +87,14 @@
 #' flows$time <- seq(from = as.Date("2020-01-01"),
 #'   to = as.Date("2020-06-01"), length.out = nrow(flows))
 #'
-#' flowmap <- flowmapblue(locations, flows, mapboxAccessToken = Sys.getenv('MAPBOX_API_TOKEN'), clustering = TRUE, darkMode = TRUE, animation = FALSE)
+#' flowmap <- flowmapblue(
+#'  locations,
+#'  flows,
+#'  mapboxAccessToken = Sys.getenv('MAPBOX_API_TOKEN'),
+#'  clustering = TRUE,
+#'  darkMode = TRUE,
+#'  animation = FALSE
+#' )
 #' 
 #' # view the map
 #' flowmap
