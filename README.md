@@ -2,6 +2,14 @@
 
 # Flowmap.blue R widget
 
+<!-- badges: start -->
+
+<a
+href="https://github.com/FlowmapBlue/flowmapblue.R/actions/workflows/R-CMD-check.yaml"
+target="_blank"><img
+src="https://github.com/FlowmapBlue/flowmapblue.R/actions/workflows/R-CMD-check.yaml/badge.svg"
+alt="R-CMD-check" /></a> <!-- badges: end -->
+
 WORK IN PROGRESS
 
 This is a [Flowmap.blue](https://flowmap.blue) widget for R. It produces

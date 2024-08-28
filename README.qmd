@@ -9,6 +9,10 @@ default-image-extension: ""
 
 # Flowmap.blue R widget
 
+<!-- badges: start -->
+[![R-CMD-check](https://github.com/FlowmapBlue/flowmapblue.R/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/FlowmapBlue/flowmapblue.R/actions/workflows/R-CMD-check.yaml){target="_blank"}
+<!-- badges: end -->
+
 WORK IN PROGRESS
 
 This is a [Flowmap.blue](https://flowmap.blue) widget for R.
