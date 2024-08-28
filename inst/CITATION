@@ -1,0 +1,12 @@
+bibentry(
+  key      = "flowmapblue_r",
+  bibtype  = "Manual",
+  title    = "Flowmap.blue widget for R",
+  author   = c(
+    person("Ilya", "Boyandin", , "ilya@boyandin.me", role = c("aut", "cph"),
+           comment = c(ORCID = "0000-0001-5585-7587"))
+  ),
+  year     = "2024",
+  url      = "https://github.com/e-kotov/rJavaEnv",
+  doi      = "10.32614/CRAN.package.flowmapblue"
+)
