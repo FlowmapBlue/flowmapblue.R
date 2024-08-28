@@ -1,35 +1,63 @@
+
+
 # Flowmap.blue R widget
 
 WORK IN PROGRESS
 
-This is a [Flowmap.blue](http://flowmap.blue) widget for R.
-It produces an interactive flow map representing numbers of movements between locations (origin-destination data).
+This is a [Flowmap.blue](https://flowmap.blue) widget for R. It produces
+an interactive flow map representing numbers of movements between
+locations (origin-destination data).
 
-You might also consider using this pure R flowmapping library: https://github.com/JohMast/flowmapper
+You might also consider using this pure R flowmapping library:
+https://github.com/JohMast/flowmapper
 
 ![image](https://user-images.githubusercontent.com/351828/86061814-bb993800-ba67-11ea-9e76-90a75f813327.png)
 
-As an alternative, you may also consider using R to populate a spreadsheet for publishing on [Flowmap.blue](http://flowmap.blue)
-as described in this [excellent blog post](https://doodles.mountainmath.ca/blog/2020/01/06/flow-maps/).
+As an alternative, you may also consider using R to populate a
+spreadsheet for publishing on [Flowmap.blue](https://flowmap.blue) as
+described in this [excellent blog
+post](https://doodles.mountainmath.ca/blog/2020/01/06/flow-maps/).
 
 ### Installation
-You need to install `devtools` if you don't have it yet:
 
-    install.packages("devtools")
+From CRAN (when available):
 
-You can install the package from GitHub as follows:
+``` r
+# install.packages("flowmapblue")
+```
 
-    devtools::install_github("FlowmapBlue/flowmapblue.R")
-    library(flowmapblue)
-    
+To install from GitHub you will need to install `remotes` if you don’t
+have it yet:
 
+``` r
+if (!require("remotes")) install.packages("remotes")
+
+remotes::install_github("FlowmapBlue/flowmapblue.R",
+  force = TRUE, dependencies = TRUE)
+```
 
 ### Usage
 
-    locations <- read.csv('https://gist.githubusercontent.com/ilyabo/a7b9701424257146b571149d92a14926/raw/2e9e1e9bcf64cf0090781b451037229ccb78e1b1/locations.csv')
-    flows <- read.csv('https://gist.githubusercontent.com/ilyabo/a7b9701424257146b571149d92a14926/raw/2e9e1e9bcf64cf0090781b451037229ccb78e1b1/flows.csv')
-    mapboxAccessToken <- 'YOUR_MAPBOX_ACCESS_TOKEN'
-    flowmapblue(locations, flows, mapboxAccessToken, clustering=TRUE, darkMode=TRUE, animation=FALSE)
+``` r
+Sys.setenv(MAPBOX_API_TOKEN = "YOUR_MAPBOX_ACCESS_TOKEN")
 
+locations <- read.csv(system.file("extdata/example/locations.csv", package = "flowmapblue"))
 
-Here is a [nice intro blog post](https://www.paulamoraga.com/blog/2020-07-11-mobility.html) by Paula Moraga.
+flows <- read.csv(system.file("extdata/example/flows.csv", package = "flowmapblue"))
+
+flowmap <- flowmapblue(
+ locations,
+ flows,
+ mapboxAccessToken = Sys.getenv('MAPBOX_API_TOKEN'),
+ clustering = TRUE,
+ darkMode = TRUE,
+ animation = FALSE
+)
+
+# view the map
+flowmap
+```
+
+Here is a [nice intro blog
+post](https://www.paulamoraga.com/blog/2020-07-11-mobility.html) by
+Paula Moraga.
