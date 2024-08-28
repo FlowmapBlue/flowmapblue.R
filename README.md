@@ -32,4 +32,4 @@ You can install the package from GitHub as follows:
     flowmapblue(locations, flows, mapboxAccessToken, clustering=TRUE, darkMode=TRUE, animation=FALSE)
 
 
-Here is a [nice intro blog post](https://www.paulamoraga.com/blog/2020/07/11/2020-07-11-mobility/) by Paula Moraga.
+Here is a [nice intro blog post](https://www.paulamoraga.com/blog/2020-07-11-mobility.html) by Paula Moraga.
