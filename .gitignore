@@ -1,3 +1,16 @@
 .Rhistory
 .Rproj.user
 .idea
+
+# macOS artifacts
+.DS_Store
+._.DS_Store
+**/.DS_Store
+**/._.DS_Store
+
+/.quarto/
+.Renviron
+/doc/
+/docs/
+/Meta/
+vignettes/.quarto
