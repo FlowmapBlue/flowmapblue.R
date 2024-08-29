@@ -12,9 +12,9 @@ alt="R-CMD-check" /></a> <!-- badges: end -->
 
 WORK IN PROGRESS
 
-This is a [Flowmap.blue](https://flowmap.blue) widget for R. It produces
-an interactive flow map representing numbers of movements between
-locations (origin-destination data).wn
+This is a [Flowmap.blue](https://www.flowmap.blue/) widget for R. It
+produces an interactive flow map representing numbers of movements
+between locations (origin-destination data).wn
 
 You might also consider using this pure R flowmapping library:
 https://github.com/JohMast/flowmapper
@@ -22,8 +22,8 @@ https://github.com/JohMast/flowmapper
 ![](man/figures/demo.png)
 
 As an alternative, you may also consider using R to populate a
-spreadsheet for publishing on [Flowmap.blue](https://flowmap.blue) as
-described in this [excellent blog
+spreadsheet for publishing on [Flowmap.blue](https://www.flowmap.blue/)
+as described in this [excellent blog
 post](https://doodles.mountainmath.ca/blog/2020/01/06/flow-maps/).
 
 ### Installation
