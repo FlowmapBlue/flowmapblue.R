@@ -16,7 +16,7 @@
       },
       "description": "Rendering interactive flow maps to visualize numbers of movements between locations (origin-destination data).",
       "license": "https://spdx.org/licenses/MIT",
-      "name": "flowmapblue: Flow map rendering",
+      "name": "flowmapblue: Flow Map Rendering",
       "programmingLanguage": {
         "type": "ComputerLanguage",
         "name": "R",

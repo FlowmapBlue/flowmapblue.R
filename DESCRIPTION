@@ -1,5 +1,5 @@
 Package: flowmapblue
-Title: Flow map rendering
+Title: Flow Map Rendering
 Version: 0.0.1
 Authors@R: c(
     person("Ilya", "Boyandin", , "ilya@boyandin.me", role = c("aut", "cph"),

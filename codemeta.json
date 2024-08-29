@@ -3,7 +3,7 @@
   "@type": "SoftwareSourceCode",
   "identifier": "flowmapblue",
   "description": "Rendering interactive flow maps to visualize numbers of movements between locations (origin-destination data).",
-  "name": "flowmapblue: Flow map rendering",
+  "name": "flowmapblue: Flow Map Rendering",
   "codeRepository": "https://github.com/FlowmapBlue/flowmapblue.R",
   "issueTracker": "https://github.com/FlowmapBlue/flowmapblue.R/issues",
   "license": "https://spdx.org/licenses/MIT",
@@ -70,7 +70,7 @@
     },
     "SystemRequirements": null
   },
-  "fileSize": "4551.61KB",
+  "fileSize": "4551.622KB",
   "citation": [
     {
       "@type": "SoftwareSourceCode",

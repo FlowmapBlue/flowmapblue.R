@@ -7,7 +7,7 @@ cff-version: 1.2.0
 message: 'To cite package "flowmapblue" in publications use:'
 type: software
 license: MIT
-title: 'flowmapblue: Flow map rendering'
+title: 'flowmapblue: Flow Map Rendering'
 version: 0.0.1
 doi: 10.32614/CRAN.package.flowmapblue
 abstract: Rendering interactive flow maps to visualize numbers of movements between
