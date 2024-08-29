@@ -14,6 +14,10 @@ URL: https://github.com/FlowmapBlue/flowmapblue.R
 BugReports: https://github.com/FlowmapBlue/flowmapblue.R/issues
 Imports: 
     htmlwidgets
+Suggests: 
+    quarto
+VignetteBuilder:
+    quarto
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)

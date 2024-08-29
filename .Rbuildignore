@@ -6,3 +6,8 @@
 ^pkgdown$
 ^CITATION\.cff$
 ^codemeta\.json$
+^vignettes/webmedia$
+^vignettes/.quarto$
+^.github$
+^README.qmd$
+^cran-comments\.md$

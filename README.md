@@ -14,12 +14,12 @@ WORK IN PROGRESS
 
 This is a [Flowmap.blue](https://flowmap.blue) widget for R. It produces
 an interactive flow map representing numbers of movements between
-locations (origin-destination data).
+locations (origin-destination data).wn
 
 You might also consider using this pure R flowmapping library:
 https://github.com/JohMast/flowmapper
 
-![image](https://user-images.githubusercontent.com/351828/86061814-bb993800-ba67-11ea-9e76-90a75f813327.png)
+![](man/figures/demo.png)
 
 As an alternative, you may also consider using R to populate a
 spreadsheet for publishing on [Flowmap.blue](https://flowmap.blue) as
@@ -44,7 +44,7 @@ remotes::install_github("FlowmapBlue/flowmapblue.R",
   force = TRUE, dependencies = TRUE)
 ```
 
-### Usage
+### Quick example
 
 ``` r
 Sys.setenv(MAPBOX_API_TOKEN = "YOUR_MAPBOX_ACCESS_TOKEN")
@@ -69,3 +69,7 @@ flowmap
 Here is a [nice intro blog
 post](https://www.paulamoraga.com/blog/2020-07-11-mobility.html) by
 Paula Moraga.
+
+For more examples with time and date in flows data, as well as
+integration with Shiny, see the Quick Start vignette and documentation
+for the package functions.
