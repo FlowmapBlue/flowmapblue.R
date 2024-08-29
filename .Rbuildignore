@@ -12,3 +12,4 @@
 ^README.qmd$
 ^cran-comments\.md$
 ^data-raw$
+^man/figures/opengraph-card.png$
