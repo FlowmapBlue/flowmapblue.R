@@ -58,6 +58,12 @@
   "softwareRequirements": {
     "1": {
       "@type": "SoftwareApplication",
+      "identifier": "R",
+      "name": "R",
+      "version": ">= 2.10"
+    },
+    "2": {
+      "@type": "SoftwareApplication",
       "identifier": "htmlwidgets",
       "name": "htmlwidgets",
       "provider": {
@@ -70,7 +76,7 @@
     },
     "SystemRequirements": null
   },
-  "fileSize": "4551.622KB",
+  "fileSize": "4549.885KB",
   "citation": [
     {
       "@type": "SoftwareSourceCode",

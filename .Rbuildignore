@@ -11,3 +11,4 @@
 ^.github$
 ^README.qmd$
 ^cran-comments\.md$
+^data-raw$

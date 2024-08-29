@@ -32,8 +32,8 @@ Sys.setenv(MAPBOX_API_TOKEN = "YOUR_MAPBOX_ACCESS_TOKEN")
 Next, load the example location and flow data:
 
 ```{r}
-locations <- read.csv(system.file("extdata/example/locations.csv", package = "flowmapblue"))
-flows <- read.csv(system.file("extdata/example/flows.csv", package = "flowmapblue"))
+locations <- data(ch_locations)
+flows <- data(ch_flows)
 ```
 
 Here is the structure of these `data.frame`s:
@@ -194,8 +194,8 @@ flowmapblueOutput("flowmap", width = "100%", height = "600px")
 # Server
 output$flowmap <- renderFlowmapblue({
   flowmapblue(
-    locations = locations,
-    flows = flows,
+    locations = ch_locations,
+    flows = ch_flows,
     mapboxAccessToken = Sys.getenv('MAPBOX_API_TOKEN'),
     clustering = TRUE,
     darkMode = TRUE,

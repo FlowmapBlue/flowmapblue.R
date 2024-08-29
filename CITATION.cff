@@ -48,6 +48,17 @@ keywords:
 - rstudio
 references:
 - type: software
+  title: 'R: A Language and Environment for Statistical Computing'
+  notes: Depends
+  url: https://www.R-project.org/
+  authors:
+  - name: R Core Team
+  institution:
+    name: R Foundation for Statistical Computing
+    address: Vienna, Austria
+  year: '2024'
+  version: '>= 2.10'
+- type: software
   title: htmlwidgets
   abstract: 'htmlwidgets: HTML Widgets for R'
   notes: Imports

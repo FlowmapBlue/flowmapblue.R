@@ -45,16 +45,21 @@ remotes::install_github("FlowmapBlue/flowmapblue.R",
 
 ### Quick example
 
+Setup your Mapbox access token. You can obtain a free token by signing up at [Mapbox](https://account.mapbox.com/).
+
 ```{r}
+#| eval: false
 Sys.setenv(MAPBOX_API_TOKEN = "YOUR_MAPBOX_ACCESS_TOKEN")
+```
 
-locations <- read.csv(system.file("extdata/example/locations.csv", package = "flowmapblue"))
-
-flows <- read.csv(system.file("extdata/example/flows.csv", package = "flowmapblue"))
+```{r}
+# load locations and flows for Switzerland
+data(ch_locations)
+data(ch_flows)
 
 flowmap <- flowmapblue(
- locations,
- flows,
+ ch_locations,
+ ch_flows,
  mapboxAccessToken = Sys.getenv('MAPBOX_API_TOKEN'),
  clustering = TRUE,
  darkMode = TRUE,

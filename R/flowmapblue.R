@@ -32,9 +32,9 @@
 #' # set your Mapbox access token
 #' Sys.setenv(MAPBOX_API_TOKEN = "YOUR_MAPBOX_ACCESS_TOKEN")
 #' 
-#' locations <- read.csv(system.file("extdata/example/locations.csv", package = "flowmapblue"))
-#' 
-#' flows <- read.csv(system.file("extdata/example/flows.csv", package = "flowmapblue"))
+#' # load locations and flows for Switzerland
+#' locations <- data(ch_locations)
+#' flows <- data(ch_flows)
 #'
 #' flowmap <- flowmapblue(
 #'  locations,
@@ -55,9 +55,9 @@
 #' # set your Mapbox access token
 #' Sys.setenv(MAPBOX_API_TOKEN = "YOUR_MAPBOX_ACCESS_TOKEN")
 #' 
-#' locations <- read.csv(system.file("extdata/example/locations.csv", package = "flowmapblue"))
-#' 
-#' flows <- read.csv(system.file("extdata/example/flows.csv", package = "flowmapblue"))
+#' # load locations and flows for Switzerland
+#' locations <- data(ch_locations)
+#' flows <- data(ch_flows)
 #' 
 #' # generate fake datetime
 #' flows$time <- seq(from =as.POSIXct("2020-01-01"),
@@ -79,10 +79,9 @@
 #' # set your Mapbox access token
 #' Sys.setenv(MAPBOX_API_TOKEN = "YOUR_MAPBOX_ACCESS_TOKEN")
 #' 
-#' locations <- read.csv(system.file("extdata/example/locations.csv", package = "flowmapblue"))
-#' 
-#' flows <- read.csv(system.file("extdata/example/flows.csv", package = "flowmapblue"))
-#' 
+#' # load locations and flows for Switzerland
+#' locations <- data(ch_locations)
+#' flows <- data(ch_flows)
 #' # generate fake dates
 #' flows$time <- seq(from = as.Date("2020-01-01"),
 #'   to = as.Date("2020-06-01"), length.out = nrow(flows))
