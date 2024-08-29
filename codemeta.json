@@ -41,6 +41,20 @@
       "@id": "https://orcid.org/0000-0001-6690-5345"
     }
   ],
+  "softwareSuggestions": [
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "quarto",
+      "name": "quarto",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=quarto"
+    }
+  ],
   "softwareRequirements": {
     "1": {
       "@type": "SoftwareApplication",
@@ -56,7 +70,7 @@
     },
     "SystemRequirements": null
   },
-  "fileSize": "4107.601KB",
+  "fileSize": "4551.61KB",
   "citation": [
     {
       "@type": "SoftwareSourceCode",
@@ -77,6 +91,7 @@
       "sameAs": "https://doi.org/10.32614/CRAN.package.flowmapblue"
     }
   ],
+  "releaseNotes": "https://github.com/FlowmapBlue/flowmapblue.R/blob/master/NEWS.md",
   "readme": "https://github.com/FlowmapBlue/flowmapblue.R/blob/master/README.md",
   "keywords": ["mobility", "datavis", "rstats", "rstudio", "movement-data", "mobility-data"]
 }
