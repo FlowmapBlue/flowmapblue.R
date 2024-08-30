@@ -92,7 +92,7 @@
       ],
       "name": "Flowmap.blue widget for R",
       "identifier": "10.32614/CRAN.package.flowmapblue",
-      "url": "https://github.com/e-kotov/rJavaEnv",
+      "url": "https://github.com/FlowmapBlue/flowmapblue.R",
       "@id": "https://doi.org/10.32614/CRAN.package.flowmapblue",
       "sameAs": "https://doi.org/10.32614/CRAN.package.flowmapblue"
     }
