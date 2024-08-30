@@ -77,4 +77,5 @@ Paula Moraga.
 
 For more examples with time and date in flows data, as well as
 integration with Shiny, see the Quick Start vignette and documentation
-for the package functions.
+for the package functions at
+<https://flowmapblue.github.io/flowmapblue.R/>.
