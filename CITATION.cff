@@ -33,7 +33,7 @@ preferred-citation:
   url: https://github.com/FlowmapBlue/flowmapblue.R
   doi: 10.32614/CRAN.package.flowmapblue
 repository-code: https://github.com/FlowmapBlue/flowmapblue.R
-url: https://github.com/FlowmapBlue/flowmapblue.R
+url: https://flowmapblue.github.io/flowmapblue.R/
 contact:
 - family-names: Kotov
   given-names: Egor
