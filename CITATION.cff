@@ -1,0 +1,100 @@
+# --------------------------------------------
+# CITATION file created with {cffr} R package
+# See also: https://docs.ropensci.org/cffr/
+# --------------------------------------------
+ 
+cff-version: 1.2.0
+message: 'To cite package "flowmapblue" in publications use:'
+type: software
+license: MIT
+title: 'flowmapblue: Flow Map Rendering'
+version: 0.0.1
+doi: 10.32614/CRAN.package.flowmapblue
+abstract: Rendering interactive flow maps to visualize numbers of movements between
+  locations (origin-destination data).
+authors:
+- family-names: Boyandin
+  given-names: Ilya
+  email: ilya@boyandin.me
+  orcid: https://orcid.org/0000-0001-5585-7587
+- family-names: Kotov
+  given-names: Egor
+  email: kotov.egor@gmail.com
+  orcid: https://orcid.org/0000-0001-6690-5345
+preferred-citation:
+  type: manual
+  title: Flowmap.blue widget for R
+  authors:
+  - family-names: Boyandin
+    given-names: Ilya
+    email: ilya@boyandin.me
+    orcid: https://orcid.org/0000-0001-5585-7587
+  year: '2024'
+  url: https://github.com/FlowmapBlue/flowmapblue.R
+  doi: 10.32614/CRAN.package.flowmapblue
+repository-code: https://github.com/FlowmapBlue/flowmapblue.R
+url: https://github.com/FlowmapBlue/flowmapblue.R
+contact:
+- family-names: Kotov
+  given-names: Egor
+  email: kotov.egor@gmail.com
+  orcid: https://orcid.org/0000-0001-6690-5345
+keywords:
+- datavis
+- mobility
+- mobility-data
+- movement-data
+- rstats
+- rstudio
+references:
+- type: software
+  title: 'R: A Language and Environment for Statistical Computing'
+  notes: Depends
+  url: https://www.R-project.org/
+  authors:
+  - name: R Core Team
+  institution:
+    name: R Foundation for Statistical Computing
+    address: Vienna, Austria
+  year: '2024'
+  version: '>= 2.10'
+- type: software
+  title: htmlwidgets
+  abstract: 'htmlwidgets: HTML Widgets for R'
+  notes: Imports
+  url: https://github.com/ramnathv/htmlwidgets
+  repository: https://CRAN.R-project.org/package=htmlwidgets
+  authors:
+  - family-names: Vaidyanathan
+    given-names: Ramnath
+  - family-names: Xie
+    given-names: Yihui
+  - family-names: Allaire
+    given-names: JJ
+  - family-names: Cheng
+    given-names: Joe
+    email: joe@posit.co
+  - family-names: Sievert
+    given-names: Carson
+    email: carson@posit.co
+    orcid: https://orcid.org/0000-0002-4958-2844
+  - family-names: Russell
+    given-names: Kenton
+  year: '2024'
+- type: software
+  title: quarto
+  abstract: 'quarto: R Interface to ''Quarto'' Markdown Publishing System'
+  notes: Suggests
+  url: https://quarto-dev.github.io/quarto-r/
+  repository: https://CRAN.R-project.org/package=quarto
+  authors:
+  - family-names: Allaire
+    given-names: JJ
+    email: jj@posit.co
+    orcid: https://orcid.org/0000-0003-0174-9868
+  - family-names: Dervieux
+    given-names: Christophe
+    email: cderv@posit.co
+    orcid: https://orcid.org/0000-0003-4474-2498
+  year: '2024'
+

@@ -1,2 +1,16 @@
 ^flowmapblue\.Rproj$
 ^\.Rproj\.user$
+^.idea$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$
+^CITATION\.cff$
+^codemeta\.json$
+^vignettes/webmedia$
+^vignettes/.quarto$
+^.github$
+^README.qmd$
+^cran-comments\.md$
+^data-raw$
+^man/figures/opengraph-card.png$
+^LICENSE.md$
