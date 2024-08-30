@@ -7,6 +7,6 @@ bibentry(
            comment = c(ORCID = "0000-0001-5585-7587"))
   ),
   year     = "2024",
-  url      = "https://github.com/e-kotov/rJavaEnv",
+  url      = "https://github.com/FlowmapBlue/flowmapblue.R",
   doi      = "10.32614/CRAN.package.flowmapblue"
 )
