@@ -11,20 +11,29 @@ flowmapblueOutput(outputId, width = "100\%", height = "400px")
 renderFlowmapblue(expr, env = parent.frame(), quoted = FALSE)
 }
 \arguments{
-\item{outputId}{output variable to read from}
+\item{outputId}{output variable to read from.}
 
 \item{width, height}{Must be a valid CSS unit (like \code{'100\%'},
 \code{'400px'}, \code{'auto'}) or a number, which will be coerced to a
 string and have \code{'px'} appended.}
 
-\item{expr}{An expression that generates a flowmapblue}
+\item{expr}{An expression that generates a \code{flowmapblue} widget.}
 
 \item{env}{The environment in which to evaluate \code{expr}.}
 
 \item{quoted}{Is \code{expr} a quoted expression (with \code{quote()})? This
 is useful if you want to save an expression in a variable.}
 }
+\value{
+\describe{
+\item{\code{flowmapblueOutput}}{Returns a \code{shiny.tag.list} object that can be included in a Shiny UI to display the \code{flowmapblue} widget.}
+\item{\code{renderFlowmapblue}}{Returns a \code{shiny.render.function} that is used to generate the \code{flowmapblue} widget on the server side in a Shiny application.}
+}
+}
 \description{
 Output and render functions for using flowmapblue within Shiny
 applications and interactive Rmd documents.
+}
+\seealso{
+\code{\link[htmlwidgets:shinyWidgetOutput]{shinyWidgetOutput}}, \code{\link[htmlwidgets:shinyRenderWidget]{shinyRenderWidget}}
 }

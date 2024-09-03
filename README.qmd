@@ -15,10 +15,9 @@ default-image-extension: ""
 
 WORK IN PROGRESS
 
-This is a [Flowmap.blue](https://www.flowmap.blue/) widget for R.
-It produces an interactive flow map representing numbers of movements between locations (origin-destination data).
+This is a [Flowmap.blue](https://www.flowmap.blue/) widget for R. Create interactive flow maps using [`FlowmapBlue`](https://github.com/FlowmapBlue/FlowmapBlue) TypeScript library, which is a free tool for representing aggregated numbers of movements between geographic locations as flow maps. It is used to visualize urban mobility, commuting behavior, bus, subway and air travels, bicycle sharing, human and bird migration, refugee flows, freight transportation, trade, supply chains, scientific collaboration, epidemiological and historical data and many other topics. The package allows to either create standalone flow maps in form of 'htmlwidgets' and save them in 'HTML' files, or integrate flow maps into 'Shiny' applications.
 
-You might also consider using this pure R flowmapping library: https://github.com/JohMast/flowmapper
+You might also consider using this pure R flowmapping library based on `ggplot2`: https://github.com/JohMast/flowmapper
 
 ![](man/figures/demo.png)
 
