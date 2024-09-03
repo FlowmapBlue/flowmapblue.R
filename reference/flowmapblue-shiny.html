@@ -9,7 +9,7 @@ applications and interactive Rmd documents."><meta property="og:image" content="
 
     <a class="navbar-brand me-2" href="../index.html">flowmapblue</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.0.1</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.0.2</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,7 +53,7 @@ applications and interactive Rmd documents.</p>
 
 
 <dl><dt id="arg-outputid">outputId<a class="anchor" aria-label="anchor" href="#arg-outputid"></a></dt>
-<dd><p>output variable to read from</p></dd>
+<dd><p>output variable to read from.</p></dd>
 
 
 <dt id="arg-width-height">width, height<a class="anchor" aria-label="anchor" href="#arg-width-height"></a></dt>
@@ -63,7 +63,7 @@ string and have <code>'px'</code> appended.</p></dd>
 
 
 <dt id="arg-expr">expr<a class="anchor" aria-label="anchor" href="#arg-expr"></a></dt>
-<dd><p>An expression that generates a flowmapblue</p></dd>
+<dd><p>An expression that generates a <code>flowmapblue</code> widget.</p></dd>
 
 
 <dt id="arg-env">env<a class="anchor" aria-label="anchor" href="#arg-env"></a></dt>
@@ -75,6 +75,21 @@ string and have <code>'px'</code> appended.</p></dd>
 is useful if you want to save an expression in a variable.</p></dd>
 
 </dl></div>
+    <div class="section level2">
+    <h2 id="value">Value<a class="anchor" aria-label="anchor" href="#value"></a></h2>
+
+<dl><dt><code>flowmapblueOutput</code></dt>
+<dd><p>Returns a <code>shiny.tag.list</code> object that can be included in a Shiny UI to display the <code>flowmapblue</code> widget.</p></dd>
+
+<dt><code>renderFlowmapblue</code></dt>
+<dd><p>Returns a <code>shiny.render.function</code> that is used to generate the <code>flowmapblue</code> widget on the server side in a Shiny application.</p></dd>
+
+
+</dl></div>
+    <div class="section level2">
+    <h2 id="see-also">See also<a class="anchor" aria-label="anchor" href="#see-also"></a></h2>
+    <div class="dont-index"><p><code><a href="https://rdrr.io/pkg/htmlwidgets/man/htmlwidgets-shiny.html" class="external-link">shinyWidgetOutput</a></code>, <code><a href="https://rdrr.io/pkg/htmlwidgets/man/htmlwidgets-shiny.html" class="external-link">shinyRenderWidget</a></code></p></div>
+    </div>
 
   </main><aside class="col-md-3"><nav id="toc" aria-label="Table of contents"><h2>On this page</h2>
     </nav></aside></div>
