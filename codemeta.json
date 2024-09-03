@@ -2,13 +2,13 @@
   "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
   "@type": "SoftwareSourceCode",
   "identifier": "flowmapblue",
-  "description": "Rendering interactive flow maps to visualize numbers of movements between locations (origin-destination data).",
+  "description": "Create interactive flow maps using `FlowmapBlue` 'TypeScript' library <https://github.com/FlowmapBlue/FlowmapBlue>, which is a free tool for representing aggregated numbers of movements between geographic locations as flow maps. It is used to visualize urban mobility, commuting behavior, bus, subway and air travels, bicycle sharing, human and bird migration, refugee flows, freight transportation, trade, supply chains, scientific collaboration, epidemiological and historical data and many other topics. The package allows to either create standalone flow maps in form of 'htmlwidgets' and save them in 'HTML' files, or integrate flow maps into 'Shiny' applications.",
   "name": "flowmapblue: Flow Map Rendering",
   "relatedLink": "https://flowmapblue.github.io/flowmapblue.R/",
   "codeRepository": "https://github.com/FlowmapBlue/flowmapblue.R",
   "issueTracker": "https://github.com/FlowmapBlue/flowmapblue.R/issues",
   "license": "https://spdx.org/licenses/MIT",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "programmingLanguage": {
     "@type": "ComputerLanguage",
     "name": "R",
@@ -77,7 +77,7 @@
     },
     "SystemRequirements": null
   },
-  "fileSize": "4548.982KB",
+  "fileSize": "4551.297KB",
   "citation": [
     {
       "@type": "SoftwareSourceCode",

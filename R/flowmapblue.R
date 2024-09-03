@@ -148,14 +148,22 @@ flowmapblue <- function(
 #' Output and render functions for using flowmapblue within Shiny
 #' applications and interactive Rmd documents.
 #'
-#' @param outputId output variable to read from
-#' @param width,height Must be a valid CSS unit (like \code{'100\%'},
+#' @param outputId output variable to read from.
+#' @param width,height Must be a valid CSS unit (like \code{'100\%'}, 
 #'   \code{'400px'}, \code{'auto'}) or a number, which will be coerced to a
 #'   string and have \code{'px'} appended.
-#' @param expr An expression that generates a flowmapblue
+#' @param expr An expression that generates a `flowmapblue` widget.
 #' @param env The environment in which to evaluate \code{expr}.
 #' @param quoted Is \code{expr} a quoted expression (with \code{quote()})? This
 #'   is useful if you want to save an expression in a variable.
+#'
+#' @return
+#' \describe{
+#'   \item{\code{flowmapblueOutput}}{Returns a `shiny.tag.list` object that can be included in a Shiny UI to display the `flowmapblue` widget.}
+#'   \item{\code{renderFlowmapblue}}{Returns a `shiny.render.function` that is used to generate the `flowmapblue` widget on the server side in a Shiny application.}
+#' }
+#'
+#' @seealso \code{\link[htmlwidgets:shinyWidgetOutput]{shinyWidgetOutput}}, \code{\link[htmlwidgets:shinyRenderWidget]{shinyRenderWidget}}
 #'
 #' @name flowmapblue-shiny
 #'
