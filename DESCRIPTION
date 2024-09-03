@@ -7,7 +7,7 @@ Authors@R: c(
     person("Egor", "Kotov", , "kotov.egor@gmail.com", role = "cre",
            comment = c(ORCID = "0000-0001-6690-5345"))
   )
-Description: Create interactive flow maps using `FlowmapBlue` 'TypeScript'
+Description: Create interactive flow maps using 'FlowmapBlue' 'TypeScript'
     library <https://github.com/FlowmapBlue/FlowmapBlue>, which is a free
     tool for representing aggregated numbers of movements between
     geographic locations as flow maps. It is used to visualize urban

@@ -10,7 +10,7 @@ license: MIT
 title: 'flowmapblue: Flow Map Rendering'
 version: 0.0.2
 doi: 10.32614/CRAN.package.flowmapblue
-abstract: Create interactive flow maps using `FlowmapBlue` 'TypeScript' library <https://github.com/FlowmapBlue/FlowmapBlue>,
+abstract: Create interactive flow maps using 'FlowmapBlue' 'TypeScript' library <https://github.com/FlowmapBlue/FlowmapBlue>,
   which is a free tool for representing aggregated numbers of movements between geographic
   locations as flow maps. It is used to visualize urban mobility, commuting behavior,
   bus, subway and air travels, bicycle sharing, human and bird migration, refugee

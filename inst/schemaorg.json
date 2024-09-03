@@ -14,7 +14,7 @@
         "familyName": "Boyandin",
         "givenName": "Ilya"
       },
-      "description": "Create interactive flow maps using `FlowmapBlue` 'TypeScript' library <https://github.com/FlowmapBlue/FlowmapBlue>, which is a free tool for representing aggregated numbers of movements between geographic locations as flow maps. It is used to visualize urban mobility, commuting behavior, bus, subway and air travels, bicycle sharing, human and bird migration, refugee flows, freight transportation, trade, supply chains, scientific collaboration, epidemiological and historical data and many other topics. The package allows to either create standalone flow maps in form of 'htmlwidgets' and save them in 'HTML' files, or integrate flow maps into 'Shiny' applications.",
+      "description": "Create interactive flow maps using 'FlowmapBlue' 'TypeScript' library <https://github.com/FlowmapBlue/FlowmapBlue>, which is a free tool for representing aggregated numbers of movements between geographic locations as flow maps. It is used to visualize urban mobility, commuting behavior, bus, subway and air travels, bicycle sharing, human and bird migration, refugee flows, freight transportation, trade, supply chains, scientific collaboration, epidemiological and historical data and many other topics. The package allows to either create standalone flow maps in form of 'htmlwidgets' and save them in 'HTML' files, or integrate flow maps into 'Shiny' applications.",
       "license": "https://spdx.org/licenses/MIT",
       "name": "flowmapblue: Flow Map Rendering",
       "programmingLanguage": {
