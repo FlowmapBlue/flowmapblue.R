@@ -56,14 +56,14 @@ post](https://doodles.mountainmath.ca/blog/2020/01/06/flow-maps/).
 
 ### Installation
 
-From CRAN (when available):
+Install from CRAN:
 
 ``` r
-# install.packages("flowmapblue")
+install.packages("flowmapblue")
 ```
 
-To install from GitHub you will need to install `remotes` if you don’t
-have it yet:
+To install the development version from GitHub you will need to install
+`remotes` if you don’t have it yet:
 
 ``` r
 if (!require("remotes")) install.packages("remotes")
@@ -82,6 +82,8 @@ Sys.setenv(MAPBOX_API_TOKEN = "YOUR_MAPBOX_ACCESS_TOKEN")
 ```
 
 ``` r
+library(flowmapblue)
+
 # load locations and flows for Switzerland
 data(ch_locations)
 data(ch_flows)
