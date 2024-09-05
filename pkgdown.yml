@@ -3,7 +3,7 @@ pkgdown: 2.1.0
 pkgdown_sha: ~
 articles:
   flowmapblue: flowmapblue.html
-last_built: 2024-09-03T17:07Z
+last_built: 2024-09-05T17:28Z
 urls:
   reference: https://flowmapblue.github.io/flowmapblue.R/reference
   article: https://flowmapblue.github.io/flowmapblue.R/articles
