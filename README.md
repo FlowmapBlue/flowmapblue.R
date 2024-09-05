@@ -4,11 +4,30 @@
 
 <!-- badges: start -->
 
-<a
+<a href="https://CRAN.R-project.org/package=flowmapblue"
+target="_blank"><img
+src="https://www.r-pkg.org/badges/version/flowmapblue"
+alt="CRAN status" /></a>
+<a href="https://CRAN.R-project.org/package=flowmapblue"
+target="_blank"><img
+src="https://cranlogs.r-pkg.org/badges/grand-total/flowmapblue?color=blue"
+alt="CRAN/METACRAN Total downloads" /></a>
+<a href="https://CRAN.R-project.org/package=flowmapblue"
+target="_blank"><img
+src="https://cranlogs.r-pkg.org/badges/flowmapblue?color=blue"
+alt="CRAN/METACRAN Downloads per month" /></a> <a
 href="https://github.com/FlowmapBlue/flowmapblue.R/actions/workflows/R-CMD-check.yaml"
 target="_blank"><img
 src="https://github.com/FlowmapBlue/flowmapblue.R/actions/workflows/R-CMD-check.yaml/badge.svg"
-alt="R-CMD-check" /></a> <!-- badges: end -->
+alt="R-CMD-check" /></a>
+<a href="https://lifecycle.r-lib.org/articles/stages.html#experimental"
+target="_blank"><img
+src="https://img.shields.io/badge/lifecycle-experimental-orange.svg"
+alt="Lifecycle: stable" /></a>
+
+[![DOI](https://zenodo.org/badge/DOI/10.32614/CRAN.package.flowmapblue.svg)](https://doi.org/10.32614/CRAN.package.flowmapblue)
+
+<!-- badges: end -->
 
 WORK IN PROGRESS
 

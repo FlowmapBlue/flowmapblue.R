@@ -10,8 +10,17 @@ default-image-extension: ""
 # Flowmap.blue R widget
 
 <!-- badges: start -->
+[![CRAN status](https://www.r-pkg.org/badges/version/flowmapblue)](https://CRAN.R-project.org/package=flowmapblue){target="_blank"}
+[![CRAN/METACRAN Total downloads](https://cranlogs.r-pkg.org/badges/grand-total/flowmapblue?color=blue)](https://CRAN.R-project.org/package=flowmapblue){target="_blank"}
+[![CRAN/METACRAN Downloads per month](https://cranlogs.r-pkg.org/badges/flowmapblue?color=blue)](https://CRAN.R-project.org/package=flowmapblue){target="_blank"}
 [![R-CMD-check](https://github.com/FlowmapBlue/flowmapblue.R/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/FlowmapBlue/flowmapblue.R/actions/workflows/R-CMD-check.yaml){target="_blank"}
+[![Lifecycle: stable](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental){target="_blank"}
+
+[![DOI](https://zenodo.org/badge/DOI/10.32614/CRAN.package.flowmapblue.svg)](https://doi.org/10.32614/CRAN.package.flowmapblue)
+
 <!-- badges: end -->
+
+
 
 WORK IN PROGRESS
 
