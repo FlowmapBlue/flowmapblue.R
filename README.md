@@ -1,6 +1,6 @@
 
 
-# Flowmap.blue R widget
+# Flowmap.blue R widget <a href="https://flowmapblue.github.io/flowmapblue.R/"><img src="man/figures/logo.png" align="right" width="200" alt="flowmapblue website" /></a>
 
 <!-- badges: start -->
 
