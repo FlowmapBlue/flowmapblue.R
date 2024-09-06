@@ -7,7 +7,7 @@ eval: false
 default-image-extension: ""
 ---
 
-# Flowmap.blue R widget <a href="https://flowmapblue.github.io/flowmapblue.R/"><img src="man/figures/logo.png" align="right" width="200" alt="flowmapblue website" /></a>
+# Flowmap.blue R widget <a href="https://flowmapblue.github.io/flowmapblue.R/"><img src="man/figures/logo.svg" align="right" width="200" alt="flowmapblue website" /></a>
 
 <!-- badges: start -->
 [![CRAN status](https://www.r-pkg.org/badges/version/flowmapblue)](https://CRAN.R-project.org/package=flowmapblue){target="_blank"}
