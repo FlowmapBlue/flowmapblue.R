@@ -15,3 +15,5 @@
 ^man/figures/opengraph-card.png$
 ^LICENSE.md$
 ^CRAN-SUBMISSION$
+^tools$
+^pkgdown$
