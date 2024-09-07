@@ -3,4 +3,4 @@ template:
   bootstrap: 5
   opengraph:
     image:
-      src: man/figures/opengraph-card.png
+      src: card.png
