@@ -1,9 +1,9 @@
 pandoc: 3.1.11
-pkgdown: 2.1.0
+pkgdown: 2.1.1
 pkgdown_sha: ~
 articles:
   flowmapblue: flowmapblue.html
-last_built: 2024-09-07T19:54Z
+last_built: 2025-02-28T14:46Z
 urls:
   reference: https://flowmapblue.github.io/flowmapblue.R/reference
   article: https://flowmapblue.github.io/flowmapblue.R/articles
