@@ -31,7 +31,7 @@
 #' # example 1, normal flows
 #' # set your Mapbox access token
 #' Sys.setenv(MAPBOX_API_TOKEN = "YOUR_MAPBOX_ACCESS_TOKEN")
-#' 
+#'
 #' # load locations and flows for Switzerland
 #' locations <- data(ch_locations)
 #' flows <- data(ch_flows)
@@ -44,57 +44,57 @@
 #'  darkMode = TRUE,
 #'  animation = FALSE
 #' )
-#' 
+#'
 #' # view the map
 #' flowmap
-#' 
+#'
 #' # or save it as an HTML file
 #' htmlwidgets::saveWidget(flowmap, file = "flowmap.html")
-#' 
+#'
 #' # example 2, flows with date in time column
 #' # set your Mapbox access token
 #' Sys.setenv(MAPBOX_API_TOKEN = "YOUR_MAPBOX_ACCESS_TOKEN")
-#' 
+#'
 #' # load locations and flows for Switzerland
-#' locations <- data(ch_locations)
-#' flows <- data(ch_flows)
-#' 
+#' data(ch_locations)
+#' data(ch_flows)
+#'
 #' # generate fake datetime
 #' flows$time <- seq(from =as.POSIXct("2020-01-01"),
 #'   to = as.POSIXct("2020-01-05"), length.out = nrow(flows))
 #'
 #' flowmap <- flowmapblue(
-#'  locations,
-#'  flows,
+#'  ch_locations,
+#'  ch_flows,
 #'  mapboxAccessToken = Sys.getenv('MAPBOX_API_TOKEN'),
 #'  clustering = TRUE,
 #'  darkMode = TRUE,
 #'  animation = FALSE
 #' )
-#' 
+#'
 #' # view the map
 #' flowmap
-#' 
+#'
 #' # example 3, flows with date in time column
 #' # set your Mapbox access token
 #' Sys.setenv(MAPBOX_API_TOKEN = "YOUR_MAPBOX_ACCESS_TOKEN")
-#' 
+#'
 #' # load locations and flows for Switzerland
-#' locations <- data(ch_locations)
-#' flows <- data(ch_flows)
+#' data(ch_locations)
+#' data(ch_flows)
 #' # generate fake dates
 #' flows$time <- seq(from = as.Date("2020-01-01"),
 #'   to = as.Date("2020-06-01"), length.out = nrow(flows))
 #'
 #' flowmap <- flowmapblue(
-#'  locations,
-#'  flows,
+#'  ch_locations,
+#'  ch_flows,
 #'  mapboxAccessToken = Sys.getenv('MAPBOX_API_TOKEN'),
 #'  clustering = TRUE,
 #'  darkMode = TRUE,
 #'  animation = FALSE
 #' )
-#' 
+#'
 #' # view the map
 #' flowmap
 #' }
@@ -102,13 +102,13 @@
 #' @import htmlwidgets
 #' @export
 flowmapblue <- function(
-  locations, flows,
+  locations,
+  flows,
   mapboxAccessToken = NULL,
   clustering = TRUE,
   animation = FALSE,
   darkMode = FALSE
 ) {
-  
   # convert time columng to UNIX time in milliseconds
   if ("time" %in% colnames(flows)) {
     if (inherits(flows$time, "POSIXct")) {
@@ -149,7 +149,7 @@ flowmapblue <- function(
 #' applications and interactive Rmd documents.
 #'
 #' @param outputId output variable to read from.
-#' @param width,height Must be a valid CSS unit (like \code{'100\%'}, 
+#' @param width,height Must be a valid CSS unit (like \code{'100\%'},
 #'   \code{'400px'}, \code{'auto'}) or a number, which will be coerced to a
 #'   string and have \code{'px'} appended.
 #' @param expr An expression that generates a `flowmapblue` widget.
@@ -168,13 +168,21 @@ flowmapblue <- function(
 #' @name flowmapblue-shiny
 #'
 #' @export
-flowmapblueOutput <- function(outputId, width = '100%', height = '400px'){
-  htmlwidgets::shinyWidgetOutput(outputId, 'flowmapblue', width, height, package = 'flowmapblue')
+flowmapblueOutput <- function(outputId, width = '100%', height = '400px') {
+  htmlwidgets::shinyWidgetOutput(
+    outputId,
+    'flowmapblue',
+    width,
+    height,
+    package = 'flowmapblue'
+  )
 }
 
 #' @rdname flowmapblue-shiny
 #' @export
 renderFlowmapblue <- function(expr, env = parent.frame(), quoted = FALSE) {
-  if (!quoted) { expr <- substitute(expr) } # force quoted
+  if (!quoted) {
+    expr <- substitute(expr)
+  } # force quoted
   htmlwidgets::shinyRenderWidget(expr, flowmapblueOutput, env, quoted = TRUE)
 }

@@ -74,16 +74,16 @@ htmlwidgets::saveWidget(flowmap, file = "flowmap.html")
 Sys.setenv(MAPBOX_API_TOKEN = "YOUR_MAPBOX_ACCESS_TOKEN")
 
 # load locations and flows for Switzerland
-locations <- data(ch_locations)
-flows <- data(ch_flows)
+data(ch_locations)
+data(ch_flows)
 
 # generate fake datetime
 flows$time <- seq(from =as.POSIXct("2020-01-01"),
   to = as.POSIXct("2020-01-05"), length.out = nrow(flows))
 
 flowmap <- flowmapblue(
- locations,
- flows,
+ ch_locations,
+ ch_flows,
  mapboxAccessToken = Sys.getenv('MAPBOX_API_TOKEN'),
  clustering = TRUE,
  darkMode = TRUE,
@@ -98,15 +98,15 @@ flowmap
 Sys.setenv(MAPBOX_API_TOKEN = "YOUR_MAPBOX_ACCESS_TOKEN")
 
 # load locations and flows for Switzerland
-locations <- data(ch_locations)
-flows <- data(ch_flows)
+data(ch_locations)
+data(ch_flows)
 # generate fake dates
 flows$time <- seq(from = as.Date("2020-01-01"),
   to = as.Date("2020-06-01"), length.out = nrow(flows))
 
 flowmap <- flowmapblue(
- locations,
- flows,
+ ch_locations,
+ ch_flows,
  mapboxAccessToken = Sys.getenv('MAPBOX_API_TOKEN'),
  clustering = TRUE,
  darkMode = TRUE,
